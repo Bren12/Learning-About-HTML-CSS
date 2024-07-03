@@ -2,27 +2,16 @@
 
 <html>
 
-<!--
-	<H1> Header
-	<table>
-	<ol> Order list
-	<input>
-	<button>
-	<iframe>
-	<form>
-	<div>
--->
-
 <head>
 	<title> Login </title>
-	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<link rel = "stylesheet" type = "text/css" href = "style/style.css">
 </head>
 
 <body>
 
 	<header class = "nav_bar">
 
-		<a href = "index.html" class = "logo"> <img src = "logo.png" alt = "logo" width = "50" height = "50">
+		<a href = "index.html" class = "logo"> <img src = "resources/logo.png" alt = "logo" width = "50" height = "50">
 		</a>
 
 		<ul>
@@ -41,29 +30,101 @@
 			<div class = "line"> </div>
 		</div>
 
+		<div class = "sub-container-2">
+			<h1 class = "sc_h1-2"> About Me </h1>
+			<h1 class = "sc_h1-3"> Hi there, I'm Brenda! ✌🏽 </h1>
+			<div class = "line-2"> </div>
+			<p class = "sc_p"> I'm a B.S. in Computer Science and Technology student at the Tecnológico de Monterrey. </p>
+			<img src="resources/invader.gif" alt = "invader" height = "500">
+		</div>
 		
+		<div class = "sub-container-list">
+
+			<h1 class = "sc_h1-3"> Ranking of Frameworks 🏆 </h1>
+
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th> Position </th>
+						<th> Front-End Framework </th>
+					</tr>
+				</thead>
+				<tbody>
+
+					<tr>
+						<td> 1 </td>
+						<td> React </td>
+					</tr>
+
+					<tr>
+						<td> 2 </td>
+						<td> Angular </td>
+					</tr>
+
+					<tr>
+						<td> 3 </td>
+						<td> Vue </td>
+					</tr>
+					
+					<tr>
+						<td> 4 </td>
+						<td> Svelte </td>
+					</tr>
+
+					<tr class="active-row">
+						<td> 5 </td>
+						<td> Remix </td>
+					</tr>
+
+					<tr>
+						<td> 6 </td>
+						<td> Next </td>
+					</tr>
+
+				</tbody>
+			</table>
+			
+			<div class="table-list">
+				<ol>
+					<h2> Top Back-End Frameworks </h2>
+					<li> NodeJS </li>
+					<li> Laravel </li>
+					<li> Django </li>
+					<li> Ruby on Rails </li>
+					<li> Spring </li>
+				</ol>
+			</div>
+
+		</div>
+
+		<div class = "sub-container-3">
+			<h1 class = "sc_h1-3"> Some Frameworks To Check 👀 </h1>
+			<iframe src="https://www.youtube.com/embed/9U8EaVjuq6U" width="560" height="315"></iframe>
+			<iframe src="https://www.youtube.com/embed/Tn6QYliFBcs" width="560" height="315"></iframe>
+			<iframe src="https://www.youtube.com/embed/d_BhzHVV4aQ" width="560" height="315"></iframe>
+		</div>
+
+		<div class="sub-container-form">
+			<form>
+				<h1 class = "sc_h1-3"> 📞 Contact Us 📞 </h1>
+
+				<label for="name"> Name: </label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email"> Email: </label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="subject"> Subject: </label>
+				<input type="subject" id="subject" name="subject" required>
+				
+				<label for="message"> Message: </label>
+				<input type="message" id="message" name="message" required>
+				
+				<button type="submit"> Submit </button>
+			</form>
+		</div>
 		
 	</div>
-
-	<table class="styled-table">
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Points</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Dom</td>
-				<td>6000</td>
-			</tr>
-			<tr class="active-row">
-				<td>Melissa</td>
-				<td>5150</td>
-			</tr>
-			<!-- and so on... -->
-		</tbody>
-	</table>
 
 </body>
 
